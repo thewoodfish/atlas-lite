@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── Atlas Lite specific ───────────────────────────────────────────────────────
+
+# Secrets — NEVER commit
+backend/.env
+
+# Rust / ink! build artifacts
+contract/target/
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# Node modules
+frontend/node_modules/
+
+# Next.js local env
+frontend/.env.local
+frontend/.env*.local
+
+# Vercel
+.vercel
